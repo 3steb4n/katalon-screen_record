@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+001_Place_Order-Random_Data,,,,22-10-2024 10:15:45,22-10-2024 10:15:46,0.984s,FAILED
+,,,,,,,
+Test Cases/001_Place_Order-Random_Data/TC_001_Sign_Up_User,,,,22-10-2024 10:15:46,22-10-2024 10:15:46,0.041s,FAILED
+"verifyElementClickable(findTestObject(""login_elements/Page_STORE/a_Sign up""))",,,,22-10-2024 10:15:46,22-10-2024 10:15:46,0.027s,FAILED
+,,,,,,,
+Test Cases/001_Place_Order-Random_Data/TC_002-Log_In_User,,Do LogIn with random user generated from groovy script.,,22-10-2024 10:15:46,22-10-2024 10:15:46,0.060s,PASSED
+return null,,,,22-10-2024 10:15:46,22-10-2024 10:15:46,0.002s,PASSED
+,,,,,,,
+Test Cases/001_Place_Order-Random_Data/TC_003-Choose_Category_Product,,,,22-10-2024 10:15:46,22-10-2024 10:15:46,0.009s,PASSED
+return null,,,,22-10-2024 10:15:46,22-10-2024 10:15:46,0.001s,PASSED
+,,,,,,,
+Test Cases/001_Place_Order-Random_Data/TC_004-Place_Order,,,,22-10-2024 10:15:46,22-10-2024 10:15:46,0.015s,PASSED
+return null,,,,22-10-2024 10:15:46,22-10-2024 10:15:46,0.001s,PASSED

@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+001_Place_Order-Random_Data,Chrome 129.0.0.0,,,22-10-2024 10:17:45,22-10-2024 10:17:50,5.763s,PASSED
+,,,,,,,
+Test Cases/001_Place_Order-Random_Data/TC_001_Sign_Up_User,Chrome 129.0.0.0,,,22-10-2024 10:17:47,22-10-2024 10:17:50,3.268s,PASSED
+"verifyElementClickable(findTestObject(""login_elements/Page_STORE/a_Sign up""))",Chrome 129.0.0.0,,,22-10-2024 10:17:47,22-10-2024 10:17:48,0.585s,PASSED
+"click(findTestObject(""login_elements/Page_STORE/a_Sign up""))",Chrome 129.0.0.0,,,22-10-2024 10:17:48,22-10-2024 10:17:48,0.294s,PASSED
+"verifyElementClickable(findTestObject(""login_elements/Page_STORE/input_Username_sign-username""))",Chrome 129.0.0.0,,,22-10-2024 10:17:48,22-10-2024 10:17:49,0.464s,PASSED
+"sendKeys(findTestObject(""login_elements/Page_STORE/input_Username_sign-username""), com.axa.portal.col.automation.bh.User.getUsername())",Chrome 129.0.0.0,,,22-10-2024 10:17:49,22-10-2024 10:17:49,0.375s,PASSED
+"sendKeys(findTestObject(""login_elements/Page_STORE/input_Password_sign-password""), com.axa.portal.col.automation.bh.User.getPassword())",Chrome 129.0.0.0,,,22-10-2024 10:17:49,22-10-2024 10:17:49,0.308s,PASSED
+"click(findTestObject(""login_elements/Page_STORE/button_Sign up""))",Chrome 129.0.0.0,,,22-10-2024 10:17:49,22-10-2024 10:17:50,0.268s,PASSED
+waitForAlert(10),Chrome 129.0.0.0,,,22-10-2024 10:17:50,22-10-2024 10:17:50,0.538s,PASSED
+getAlertText(),Chrome 129.0.0.0,,,22-10-2024 10:17:50,22-10-2024 10:17:50,0.012s,PASSED
+"verifyEqual(getAlertText(), ""Sign up successful."")",Chrome 129.0.0.0,,,22-10-2024 10:17:50,22-10-2024 10:17:50,0.028s,PASSED
+closeBrowser(),Chrome 129.0.0.0,,,22-10-2024 10:17:50,22-10-2024 10:17:50,0.207s,PASSED
+,,,,,,,
+Test Cases/001_Place_Order-Random_Data/TC_002-Log_In_User,Chrome 129.0.0.0,Do LogIn with random user generated from groovy script.,,22-10-2024 10:17:50,22-10-2024 10:17:50,0.061s,PASSED
+return null,Chrome 129.0.0.0,,,22-10-2024 10:17:50,22-10-2024 10:17:50,0.001s,PASSED
+,,,,,,,
+Test Cases/001_Place_Order-Random_Data/TC_003-Choose_Category_Product,Chrome 129.0.0.0,,,22-10-2024 10:17:50,22-10-2024 10:17:50,0.021s,PASSED
+return null,Chrome 129.0.0.0,,,22-10-2024 10:17:50,22-10-2024 10:17:50,0.000s,PASSED
+,,,,,,,
+Test Cases/001_Place_Order-Random_Data/TC_004-Place_Order,Chrome 129.0.0.0,,,22-10-2024 10:17:50,22-10-2024 10:17:50,0.013s,PASSED
+return null,Chrome 129.0.0.0,,,22-10-2024 10:17:50,22-10-2024 10:17:50,0.001s,PASSED

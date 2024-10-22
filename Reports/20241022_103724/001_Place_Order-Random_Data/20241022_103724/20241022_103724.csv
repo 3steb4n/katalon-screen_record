@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+001_Place_Order-Random_Data,Chrome 129.0.0.0,,,22-10-2024 10:37:33,22-10-2024 10:37:38,5.520s,PASSED
+,,,,,,,
+Test Cases/001_Place_Order-Random_Data/TC_001_Sign_Up_User,Chrome 129.0.0.0,,,22-10-2024 10:37:35,22-10-2024 10:37:38,3.092s,PASSED
+username = com.axa.portal.col.automation.bh.User.getUsername(),Chrome 129.0.0.0,,,22-10-2024 10:37:35,22-10-2024 10:37:35,0.118s,PASSED
+password = com.axa.portal.col.automation.bh.User.getPassword(),Chrome 129.0.0.0,,,22-10-2024 10:37:35,22-10-2024 10:37:35,0.006s,PASSED
+"verifyElementClickable(findTestObject(""login_elements/Page_STORE/a_Sign up""))",Chrome 129.0.0.0,,,22-10-2024 10:37:35,22-10-2024 10:37:36,0.419s,PASSED
+"click(findTestObject(""login_elements/Page_STORE/a_Sign up""))",Chrome 129.0.0.0,,,22-10-2024 10:37:36,22-10-2024 10:37:36,0.299s,PASSED
+"verifyElementClickable(findTestObject(""login_elements/Page_STORE/input_Username_sign-username""))",Chrome 129.0.0.0,,,22-10-2024 10:37:36,22-10-2024 10:37:36,0.453s,PASSED
+"sendKeys(findTestObject(""login_elements/Page_STORE/input_Username_sign-username""), username)",Chrome 129.0.0.0,,,22-10-2024 10:37:36,22-10-2024 10:37:37,0.321s,PASSED
+"sendKeys(findTestObject(""login_elements/Page_STORE/input_Password_sign-password""), password)",Chrome 129.0.0.0,,,22-10-2024 10:37:37,22-10-2024 10:37:37,0.291s,PASSED
+"click(findTestObject(""login_elements/Page_STORE/button_Sign up""))",Chrome 129.0.0.0,,,22-10-2024 10:37:37,22-10-2024 10:37:37,0.271s,PASSED
+waitForAlert(10),Chrome 129.0.0.0,,,22-10-2024 10:37:37,22-10-2024 10:37:38,0.535s,PASSED
+getAlertText(),Chrome 129.0.0.0,,,22-10-2024 10:37:38,22-10-2024 10:37:38,0.013s,PASSED
+"verifyEqual(getAlertText(), ""Sign up successful."")",Chrome 129.0.0.0,,,22-10-2024 10:37:38,22-10-2024 10:37:38,0.028s,PASSED
+closeBrowser(),Chrome 129.0.0.0,,,22-10-2024 10:37:38,22-10-2024 10:37:38,0.144s,PASSED
+,,,,,,,
+Test Cases/001_Place_Order-Random_Data/TC_002-Log_In_User,Chrome 129.0.0.0,Do LogIn with random user generated from groovy script.,,22-10-2024 10:37:38,22-10-2024 10:37:38,0.051s,PASSED
+return null,Chrome 129.0.0.0,,,22-10-2024 10:37:38,22-10-2024 10:37:38,0.001s,PASSED
+,,,,,,,
+Test Cases/001_Place_Order-Random_Data/TC_003-Choose_Category_Product,Chrome 129.0.0.0,,,22-10-2024 10:37:38,22-10-2024 10:37:38,0.010s,PASSED
+return null,Chrome 129.0.0.0,,,22-10-2024 10:37:38,22-10-2024 10:37:38,0.001s,PASSED
+,,,,,,,
+Test Cases/001_Place_Order-Random_Data/TC_004-Place_Order,Chrome 129.0.0.0,,,22-10-2024 10:37:38,22-10-2024 10:37:38,0.008s,PASSED
+return null,Chrome 129.0.0.0,,,22-10-2024 10:37:38,22-10-2024 10:37:38,0.001s,PASSED

@@ -1,4 +1,4 @@
-package com.axa.portal.col.automatizacion.bh
+package com.axa.portal.col.automation.bh
 
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
@@ -26,39 +26,38 @@ public class User {
 	private static final Random RANDOM = new Random();
 	private static final String ALPHABET = "abcdefghijklmnopqrstuvwyz0123456789";
 	private static final int LIMIT_CHARACTER = 10;
-	
+
 	public User() {
 		setUsername();
 		setPassword();
 	}
-	
+
 	private void setUsername() {
 		StringBuilder username = new StringBuilder();
-		
+
 		for(int a = 0; a < LIMIT_CHARACTER; a++) {
 			username.append(ALPHABET.charAt(RANDOM.nextInt(ALPHABET.length())));
 		}
-		
+
 		this.username = username.toString();
 	}
-	
+
 	@Keyword
 	public String getUsername() {
 		return this.username;
 	}
-	
+
 	private void setPassword() {
 		StringBuilder password = new StringBuilder();
-		
+
 		for(int a = 0; a < LIMIT_CHARACTER; a++) {
 			password.append(ALPHABET.charAt(RANDOM.nextInt(ALPHABET.length())));
 		}
-		
-		
-		System.out.println(password);
+
+		//System.out.println(password);
 		this.password =  password.toString();
 	}
-	
+
 	@Keyword
 	public String getPassword() {
 		return this.password;

@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+001_Place_Order-Random_Data,Chrome 129.0.0.0,,,22-10-2024 10:56:39,22-10-2024 10:56:53,14.518s,FAILED
+,,,,,,,
+Test Cases/001_Place_Order-Random_Data/TC_001_Sign_Up_User,Chrome 129.0.0.0,,,22-10-2024 10:56:41,22-10-2024 10:56:44,3.244s,PASSED
+username = com.axa.portal.col.automation.bh.User.getUsername(),Chrome 129.0.0.0,,,22-10-2024 10:56:41,22-10-2024 10:56:41,0.127s,PASSED
+password = com.axa.portal.col.automation.bh.User.getPassword(),Chrome 129.0.0.0,,,22-10-2024 10:56:41,22-10-2024 10:56:41,0.005s,PASSED
+"verifyElementClickable(findTestObject(""Sign_Up-Elements/Page_STORE/a_Sign up""))",Chrome 129.0.0.0,,,22-10-2024 10:56:41,22-10-2024 10:56:42,0.654s,PASSED
+"click(findTestObject(""Sign_Up-Elements/Page_STORE/a_Sign up""))",Chrome 129.0.0.0,,,22-10-2024 10:56:42,22-10-2024 10:56:42,0.298s,PASSED
+"verifyElementClickable(findTestObject(""Sign_Up-Elements/Page_STORE/input_Username_sign-username""))",Chrome 129.0.0.0,,,22-10-2024 10:56:42,22-10-2024 10:56:43,0.472s,PASSED
+"sendKeys(findTestObject(""Sign_Up-Elements/Page_STORE/input_Username_sign-username""), username)",Chrome 129.0.0.0,,,22-10-2024 10:56:43,22-10-2024 10:56:43,0.342s,PASSED
+"sendKeys(findTestObject(""Sign_Up-Elements/Page_STORE/input_Password_sign-password""), password)",Chrome 129.0.0.0,,,22-10-2024 10:56:43,22-10-2024 10:56:43,0.304s,PASSED
+"click(findTestObject(""Sign_Up-Elements/Page_STORE/button_Sign up""))",Chrome 129.0.0.0,,,22-10-2024 10:56:43,22-10-2024 10:56:44,0.263s,PASSED
+waitForAlert(10),Chrome 129.0.0.0,,,22-10-2024 10:56:44,22-10-2024 10:56:44,0.537s,PASSED
+getAlertText(),Chrome 129.0.0.0,,,22-10-2024 10:56:44,22-10-2024 10:56:44,0.013s,PASSED
+"verifyEqual(getAlertText(), ""Sign up successful."")",Chrome 129.0.0.0,,,22-10-2024 10:56:44,22-10-2024 10:56:44,0.029s,PASSED
+,,,,,,,
+Test Cases/001_Place_Order-Random_Data/TC_002-Log_In_User,Chrome 129.0.0.0,Do LogIn with random user generated from groovy script.,,22-10-2024 10:56:52,22-10-2024 10:56:53,1.041s,FAILED
+"verifyElementClickable(findTestObject(""Log_In-Elements/Page_STORE/a_Log in""))",Chrome 129.0.0.0,,,22-10-2024 10:56:52,22-10-2024 10:56:53,1.030s,FAILED
+,,,,,,,
+Test Cases/001_Place_Order-Random_Data/TC_003-Choose_Category_Product,Chrome 129.0.0.0,,,22-10-2024 10:56:53,22-10-2024 10:56:53,0.031s,PASSED
+return null,Chrome 129.0.0.0,,,22-10-2024 10:56:53,22-10-2024 10:56:53,0.001s,PASSED
+,,,,,,,
+Test Cases/001_Place_Order-Random_Data/TC_004-Place_Order,Chrome 129.0.0.0,,,22-10-2024 10:56:53,22-10-2024 10:56:53,0.005s,PASSED
+return null,Chrome 129.0.0.0,,,22-10-2024 10:56:53,22-10-2024 10:56:53,0.000s,PASSED

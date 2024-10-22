@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Do LogIn with random user generated from groovy script.</description>
+   <name>TC_002-Log_In_User</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6b8025e5-ad72-4313-99b7-0ff79722ce57</testCaseGuid>
+</TestCaseEntity>

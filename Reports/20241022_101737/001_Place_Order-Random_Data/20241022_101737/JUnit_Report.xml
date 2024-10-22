@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="001_Place_Order-Random_Data" time="5.763" tests="4" failures="0" errors="0">
+   <testsuite name="001_Place_Order-Random_Data" tests="4" failures="0" errors="0" time="5.763" skipped="0" timestamp="22-10-2024T10:17:45" hostname="JuanG - DESKTOP-U369KU2" id="Test Suites/001_Place_Order-Random_Data">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\JuanG\\git\\kalon-screen_record\\Reports\\20241022_101737\\001_Place_Order-Random_Data\\20241022_101737"/>
+         <property name="logFiles" value="C:\\Users\\JuanG\\git\\kalon-screen_record\\Reports\\20241022_101737\\001_Place_Order-Random_Data\\20241022_101737\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="JuanG - DESKTOP-U369KU2"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+         <property name="browser" value="Chrome 129.0.0.0"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="468332a4c2db8cfa1dae993442ccbf58"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/001_Place_Order-Random_Data/TC_001_Sign_Up_User" time="3.268" classname="Test Cases/001_Place_Order-Random_Data/TC_001_Sign_Up_User" status="PASSED">
+         <system-out><![CDATA[22-10-2024T10:17:47 - [TEST_CASE][PASSED] - Test Cases/001_Place_Order-Random_Data/TC_001_Sign_Up_User: Test Cases/001_Place_Order-Random_Data/TC_001_Sign_Up_User
+
+22-10-2024T10:17:47 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("login_elements/Page_STORE/a_Sign up")): Object 'Object Repository/login_elements/Page_STORE/a_Sign up' is clickable
+
+22-10-2024T10:17:48 - [MESSAGE][PASSED] - Object 'Object Repository/login_elements/Page_STORE/a_Sign up' is clickable
+
+22-10-2024T10:17:48 - [TEST_STEP][PASSED] - click(findTestObject("login_elements/Page_STORE/a_Sign up")): Object: 'Object Repository/login_elements/Page_STORE/a_Sign up' is clicked on
+
+22-10-2024T10:17:48 - [MESSAGE][PASSED] - Object: 'Object Repository/login_elements/Page_STORE/a_Sign up' is clicked on
+
+22-10-2024T10:17:48 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("login_elements/Page_STORE/input_Username_sign-username")): Object 'Object Repository/login_elements/Page_STORE/input_Username_sign-username' is clickable
+
+22-10-2024T10:17:49 - [MESSAGE][PASSED] - Object 'Object Repository/login_elements/Page_STORE/input_Username_sign-username' is clickable
+
+22-10-2024T10:17:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("login_elements/Page_STORE/input_Username_sign-username"), com.axa.portal.col.automation.bh.User.getUsername()): Keys '9yj3okl6nj' sent to object: 'Object Repository/login_elements/Page_STORE/input_Username_sign-username'
+
+22-10-2024T10:17:49 - [MESSAGE][PASSED] - com.axa.portal.col.automation.bh.User.getUsername is PASSED
+
+22-10-2024T10:17:49 - [MESSAGE][PASSED] - Keys '9yj3okl6nj' sent to object: 'Object Repository/login_elements/Page_STORE/input_Username_sign-username'
+
+22-10-2024T10:17:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("login_elements/Page_STORE/input_Password_sign-password"), com.axa.portal.col.automation.bh.User.getPassword()): Keys '0tpto4yk2h' sent to object: 'Object Repository/login_elements/Page_STORE/input_Password_sign-password'
+
+22-10-2024T10:17:49 - [MESSAGE][PASSED] - com.axa.portal.col.automation.bh.User.getPassword is PASSED
+
+22-10-2024T10:17:49 - [MESSAGE][PASSED] - Keys '0tpto4yk2h' sent to object: 'Object Repository/login_elements/Page_STORE/input_Password_sign-password'
+
+22-10-2024T10:17:49 - [TEST_STEP][PASSED] - click(findTestObject("login_elements/Page_STORE/button_Sign up")): Object: 'Object Repository/login_elements/Page_STORE/button_Sign up' is clicked on
+
+22-10-2024T10:17:50 - [MESSAGE][PASSED] - Object: 'Object Repository/login_elements/Page_STORE/button_Sign up' is clicked on
+
+22-10-2024T10:17:50 - [TEST_STEP][PASSED] - waitForAlert(10): Alert is present after 10 second(s).
+
+22-10-2024T10:17:50 - [MESSAGE][PASSED] - Alert is present after 10 second(s).
+
+22-10-2024T10:17:50 - [TEST_STEP][PASSED] - getAlertText(): Get alert text successfully: 'Sign up successful.'
+
+22-10-2024T10:17:50 - [MESSAGE][PASSED] - Get alert text successfully: 'Sign up successful.'
+
+22-10-2024T10:17:50 - [TEST_STEP][PASSED] - verifyEqual(getAlertText(), "Sign up successful."): Actual object 'Sign up successful.' and expected object 'Sign up successful.' are equal
+
+22-10-2024T10:17:50 - [MESSAGE][PASSED] - Get alert text successfully: 'Sign up successful.'
+
+22-10-2024T10:17:50 - [MESSAGE][PASSED] - Actual object 'Sign up successful.' and expected object 'Sign up successful.' are equal
+
+22-10-2024T10:17:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+22-10-2024T10:17:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/001_Place_Order-Random_Data/TC_002-Log_In_User" time="0.061" classname="Test Cases/001_Place_Order-Random_Data/TC_002-Log_In_User" status="PASSED">
+         <system-out><![CDATA[22-10-2024T10:17:50 - [TEST_CASE][PASSED] - Test Cases/001_Place_Order-Random_Data/TC_002-Log_In_User: Test Cases/001_Place_Order-Random_Data/TC_002-Log_In_User
+
+22-10-2024T10:17:50 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/001_Place_Order-Random_Data/TC_003-Choose_Category_Product" time="0.021" classname="Test Cases/001_Place_Order-Random_Data/TC_003-Choose_Category_Product" status="PASSED">
+         <system-out><![CDATA[22-10-2024T10:17:50 - [TEST_CASE][PASSED] - Test Cases/001_Place_Order-Random_Data/TC_003-Choose_Category_Product: Test Cases/001_Place_Order-Random_Data/TC_003-Choose_Category_Product
+
+22-10-2024T10:17:50 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/001_Place_Order-Random_Data/TC_004-Place_Order" time="0.013" classname="Test Cases/001_Place_Order-Random_Data/TC_004-Place_Order" status="PASSED">
+         <system-out><![CDATA[22-10-2024T10:17:50 - [TEST_CASE][PASSED] - Test Cases/001_Place_Order-Random_Data/TC_004-Place_Order: Test Cases/001_Place_Order-Random_Data/TC_004-Place_Order
+
+22-10-2024T10:17:50 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[22-10-2024T10:17:45 - [TEST_SUITE][PASSED] - 001_Place_Order-Random_Data: Test Cases/001_Place_Order-Random_Data/TC_004-Place_Order]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
