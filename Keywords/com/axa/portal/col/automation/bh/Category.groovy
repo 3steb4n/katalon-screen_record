@@ -29,7 +29,7 @@ public class Category {
 
 	@Keyword
 	//Validar si la categoria propuesta existe en la lista de categorias
-	public Boolean matchedCategorie(String xpathCategoryContainer, String selectedCategory) {
+	public Boolean matchedCategory(String xpathCategoryContainer, String selectedCategory) {
 		try {
 			WebElement divContainer = WEB_DRIVER.findElement(By.xpath(xpathCategoryContainer));
 			List<WebElement> elements = divContainer.findElements(By.tagName("a"));

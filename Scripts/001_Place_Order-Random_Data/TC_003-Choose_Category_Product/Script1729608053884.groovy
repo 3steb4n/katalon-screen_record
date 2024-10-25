@@ -24,7 +24,7 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 //GlobalVariable.category = CustomKeywords.'com.axa.portal.col.automation.bh.Category.getCategoryName'()
 WebUI.waitForElementPresent(findTestObject('Index_Elements/Page_STORE/categories'), 5)
 
-WebUI.verifyEqual(true, CustomKeywords.'com.axa.portal.col.automation.bh.Category.matchedCategorie'(findTestObject('Index_Elements/Page_STORE/categories')
+WebUI.verifyEqual(true, CustomKeywords.'com.axa.portal.col.automation.bh.Category.matchedCategory'(findTestObject('Index_Elements/Page_STORE/categories')
 	.findPropertyValue('xpath'), category.toString().toLowerCase()))
 
 println category

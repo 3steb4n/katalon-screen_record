@@ -17,8 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-GlobalVariable.username = CustomKeywords.'com.axa.portal.col.automation.bh.User.getUsername'()
-GlobalVariable.password = CustomKeywords.'com.axa.portal.col.automation.bh.User.getPassword'()
+'Generate a dummy user from Custom KeyWord.'
+(GlobalVariable.credentialsWebUser[0]) = CustomKeywords.'com.axa.portal.col.automation.bh.User.getUsername'()
+
+'Generate a dummy password from Custom Keyword.'
+(GlobalVariable.credentialsWebUser[1]) = CustomKeywords.'com.axa.portal.col.automation.bh.User.getPassword'()
 
 WebUI.verifyElementClickable(findTestObject('Sign_Up-Elements/Page_STORE/a_Sign up'))
 
@@ -26,9 +29,11 @@ WebUI.click(findTestObject('Sign_Up-Elements/Page_STORE/a_Sign up'))
 
 WebUI.verifyElementClickable(findTestObject('Sign_Up-Elements/Page_STORE/input_Username_sign-username'))
 
-WebUI.sendKeys(findTestObject('Sign_Up-Elements/Page_STORE/input_Username_sign-username'), GlobalVariable.username)
+WebUI.sendKeys(findTestObject('Sign_Up-Elements/Page_STORE/input_Username_sign-username'), GlobalVariable.credentialsWebUser[
+    0])
 
-WebUI.sendKeys(findTestObject('Sign_Up-Elements/Page_STORE/input_Password_sign-password'), GlobalVariable.password)
+WebUI.sendKeys(findTestObject('Sign_Up-Elements/Page_STORE/input_Password_sign-password'), GlobalVariable.credentialsWebUser[
+    1])
 
 WebUI.click(findTestObject('Sign_Up-Elements/Page_STORE/button_Sign up'))
 
@@ -37,3 +42,4 @@ WebUI.waitForAlert(10)
 WebUI.getAlertText()
 
 WebUI.verifyEqual(WebUI.getAlertText(), 'Sign up successful.')
+

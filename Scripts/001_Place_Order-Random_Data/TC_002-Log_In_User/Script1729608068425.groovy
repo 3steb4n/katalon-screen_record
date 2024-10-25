@@ -23,11 +23,11 @@ WebUI.click(findTestObject('Log_In-Elements/Page_STORE/a_Log in'))
 
 WebUI.waitForElementClickable(findTestObject('Log_In-Elements/Page_STORE/input_Username_loginusername'), 5)
 
-WebUI.sendKeys(findTestObject('Log_In-Elements/Page_STORE/input_Username_loginusername'), GlobalVariable.username)
+WebUI.sendKeys(findTestObject('Log_In-Elements/Page_STORE/input_Username_loginusername'), GlobalVariable.credentialsWebUser[0])
 
 WebUI.waitForElementClickable(findTestObject('Log_In-Elements/Page_STORE/input_Password_loginpassword'), 5)
 
-WebUI.sendKeys(findTestObject('Log_In-Elements/Page_STORE/input_Password_loginpassword'), GlobalVariable.password)
+WebUI.sendKeys(findTestObject('Log_In-Elements/Page_STORE/input_Password_loginpassword'), GlobalVariable.credentialsWebUser[1])
 
 WebUI.verifyElementClickable(findTestObject('Log_In-Elements/Page_STORE/button_Log in'))
 
@@ -35,5 +35,5 @@ WebUI.click(findTestObject('Log_In-Elements/Page_STORE/button_Log in'))
 
 WebUI.waitForElementPresent(findTestObject('Log_In-Elements/Page_STORE/a_Welcome'), 5)
 
-WebUI.verifyEqual(WebUI.getText(findTestObject('Log_In-Elements/Page_STORE/a_Welcome')), "Welcome $GlobalVariable.username")
+WebUI.verifyEqual(WebUI.getText(findTestObject('Log_In-Elements/Page_STORE/a_Welcome')), "Welcome ${GlobalVariable.credentialsWebUser[0]}")
 
