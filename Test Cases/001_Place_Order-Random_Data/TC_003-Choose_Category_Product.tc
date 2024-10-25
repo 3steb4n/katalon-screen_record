@@ -6,4 +6,30 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>cb26832c-3baa-4530-bae3-f27e2dc7412a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ba45c103-4f1d-4805-aa05-d7056e0a7c1f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>21e1b714-f317-4cd8-aa6f-b33aa85aade3</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'phones'</defaultValue>
+      <description></description>
+      <id>ba45c103-4f1d-4805-aa05-d7056e0a7c1f</id>
+      <masked>false</masked>
+      <name>category</name>
+   </variable>
+   <variable>
+      <defaultValue>'apple'</defaultValue>
+      <description>The product has to match with de category list.</description>
+      <id>21e1b714-f317-4cd8-aa6f-b33aa85aade3</id>
+      <masked>false</masked>
+      <name>product</name>
+   </variable>
 </TestCaseEntity>

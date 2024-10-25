@@ -15,6 +15,16 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.By as By
 import org.openqa.selenium.Keys as Keys
+import org.openqa.selenium.WebElement as WebElement
+import org.openqa.selenium.WebDriver as WebDriver
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
-GlobalVariable.category = CustomKeywords.'com.axa.portal.col.automation.bh.Category.getCategoryName'()
+//GlobalVariable.category = CustomKeywords.'com.axa.portal.col.automation.bh.Category.getCategoryName'()
+WebUI.waitForElementPresent(findTestObject('Index_Elements/Page_STORE/categories'), 5)
+
+WebUI.verifyEqual(true, CustomKeywords.'com.axa.portal.col.automation.bh.Category.matchedCategorie'(findTestObject('Index_Elements/Page_STORE/categories')
+	.findPropertyValue('xpath'), category.toString().toLowerCase()))
+
+println category

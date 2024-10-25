@@ -17,26 +17,32 @@ import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 import internal.GlobalVariable
+import org.openqa.selenium.WebDriver
+import org.openqa.selenium.WebElement
+import org.openqa.selenium.By
 
 public class Category {
-	private String categoryName;
-	private static final ArrayList<String> CATEGORIES = new ArrayList<String>("Phones", "Laptops", "Monitors");
-	private String product;
-
-	public Category() {
-		setCategoryName();
-	}
-
-	private void setCategoryName() {
-		Random random = new Random();
-
-		this.categoryName = CATEGORIES.get(random.nextInt(CATEGORIES.size())).toString();
-	}
+	private final static WebDriver WEB_DRIVER =  DriverFactory.getWebDriver();
 
 	@Keyword
-	public String getCategoryName() {
-		return this.categoryName;
+	//Validar si la categoria propuesta existe en la lista de categorias
+	public Boolean matchedCategorie(String xpathCategoryContainer, String selectedCategory) {
+		try {
+			WebElement divContainer = WEB_DRIVER.findElement(By.xpath(xpathCategoryContainer));
+			List<WebElement> elements = divContainer.findElements(By.tagName("a"));
+
+			//Recorre los elementos del div en donde estan las categorias disponibles
+			for (int i = 1; i < elements.size(); i++) {
+				if (elements.get(i).getText().toLowerCase().contains(selectedCategory)) {
+					return true;
+				}
+			}
+		} catch(NoSuchElementException e) {
+			System.out.print("Error al encontrar el elemento Category Container: " + e);
+		}
+		return false;
 	}
 }

@@ -6,12 +6,16 @@
    <elementGuidId>c27e22bd-d4ad-4411-8e47-c4fef73d17bf</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.col-lg-3</value>
+         <key>XPATH</key>
+         <value>//div[@id='contcont']/div/div/div[@class='list-group']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='contcont']/div/div</value>
+         <key>BASIC</key>
+         <value>id(&quot;contcont&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-3&quot;]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.col-lg-3</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,18 +33,18 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>e171708b-de5b-4b10-87fe-98cd2f44a107</webElementGuid>
+      <webElementGuid>37a75231-3611-49c6-b37a-2373422fd5f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>col-lg-3</value>
-      <webElementGuid>7bc07e29-19f1-4e88-b0c7-8d4d7b0f7bd9</webElementGuid>
+      <value>list-group</value>
+      <webElementGuid>a529895f-e89c-48be-aa09-f9f0a51e6983</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -52,15 +56,15 @@
           Monitors
         
       </value>
-      <webElementGuid>70c32842-d48d-425c-b8d1-0e16fb3759dd</webElementGuid>
+      <webElementGuid>213a1f32-4877-45d5-aa92-1a8250c578d3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;contcont&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-3&quot;]</value>
-      <webElementGuid>9f65858e-3787-446c-a554-316d63ccaa80</webElementGuid>
+      <webElementGuid>407246d2-f80f-4dfd-af3d-f727171d026e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -68,7 +72,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='contcont']/div/div</value>
-      <webElementGuid>8c946311-7707-4603-b831-d53684d22c2a</webElementGuid>
+      <webElementGuid>bf70688e-791a-4408-bd4b-c190dfde5a1c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -76,7 +80,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Next'])[1]/following::div[3]</value>
-      <webElementGuid>bf55c70d-9a3b-4dbc-800d-445c98ecf675</webElementGuid>
+      <webElementGuid>d82fc320-4425-469f-8f77-34e490812878</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,7 +88,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Previous'])[1]/following::div[3]</value>
-      <webElementGuid>17f48ea2-96dd-42d5-9be2-395d3bac2482</webElementGuid>
+      <webElementGuid>d3df1825-6be2-499e-91a3-a6480490bb1c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,7 +96,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Samsung galaxy s6'])[1]/preceding::div[2]</value>
-      <webElementGuid>4ce2c766-2a5d-4f6b-9d48-e042db96a65a</webElementGuid>
+      <webElementGuid>ba296d9a-1071-4c38-ae66-08c528591fd7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -100,7 +104,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div/div</value>
-      <webElementGuid>6e1916b2-c313-4b0f-8339-d1091776f5cf</webElementGuid>
+      <webElementGuid>7b93c239-8833-4a31-9349-13782383edcd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,6 +126,6 @@
           Monitors
         
       ')]</value>
-      <webElementGuid>1def3707-832e-435d-b821-7b3fcb4c61b0</webElementGuid>
+      <webElementGuid>e538fa29-22d5-4adf-8cc9-e6d5ced1f482</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
