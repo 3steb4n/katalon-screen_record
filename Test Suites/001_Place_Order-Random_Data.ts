@@ -15,6 +15,13 @@
       <guid>e9104af6-e39f-44e7-bda2-6c1c6c3623cf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
+      <iterationNameVariable>
+         <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+         <description></description>
+         <id>cdd8e08b-76bb-4050-b43f-eea9e43fd4c7</id>
+         <masked>false</masked>
+         <name>variable</name>
+      </iterationNameVariable>
       <testCaseId>Test Cases/001_Place_Order-Random_Data/TC_001_Sign_Up_User</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>

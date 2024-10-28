@@ -19,15 +19,15 @@
       <variableId>21e1b714-f317-4cd8-aa6f-b33aa85aade3</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'phones'</defaultValue>
+      <defaultValue>'Phones'</defaultValue>
       <description></description>
       <id>ba45c103-4f1d-4805-aa05-d7056e0a7c1f</id>
       <masked>false</masked>
       <name>category</name>
    </variable>
    <variable>
-      <defaultValue>'apple'</defaultValue>
-      <description>The product has to match with de category list.</description>
+      <defaultValue>'2017'</defaultValue>
+      <description>The product has to match with the category list.</description>
       <id>21e1b714-f317-4cd8-aa6f-b33aa85aade3</id>
       <masked>false</masked>
       <name>product</name>

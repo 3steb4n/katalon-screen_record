@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>categories</name>
+   <name>categories_list</name>
    <tag></tag>
    <elementGuidId>c27e22bd-d4ad-4411-8e47-c4fef73d17bf</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@id='contcont']/div/div/div[@class='list-group']</value>
-      </entry>
       <entry>
          <key>BASIC</key>
          <value>id(&quot;contcont&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-3&quot;]</value>
@@ -16,6 +12,10 @@
       <entry>
          <key>CSS</key>
          <value>div.col-lg-3</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@class='list-group']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>37a75231-3611-49c6-b37a-2373422fd5f9</webElementGuid>
+      <webElementGuid>1fe91fff-83eb-4a98-8ae2-f6e2069a2a94</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>list-group</value>
-      <webElementGuid>a529895f-e89c-48be-aa09-f9f0a51e6983</webElementGuid>
+      <webElementGuid>c0df475a-02f4-4ee3-84f1-71a7f4cd3cff</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,7 +56,7 @@
           Monitors
         
       </value>
-      <webElementGuid>213a1f32-4877-45d5-aa92-1a8250c578d3</webElementGuid>
+      <webElementGuid>f0e6141b-7f6f-4428-b552-ac5483de8195</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -64,7 +64,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;contcont&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-3&quot;]</value>
-      <webElementGuid>407246d2-f80f-4dfd-af3d-f727171d026e</webElementGuid>
+      <webElementGuid>ffb047d3-4517-4460-9d9f-742a2ebf9c3d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -72,7 +72,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='contcont']/div/div</value>
-      <webElementGuid>bf70688e-791a-4408-bd4b-c190dfde5a1c</webElementGuid>
+      <webElementGuid>5bb684f4-f5c9-400f-8493-973f960dbc13</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -80,7 +80,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Next'])[1]/following::div[3]</value>
-      <webElementGuid>d82fc320-4425-469f-8f77-34e490812878</webElementGuid>
+      <webElementGuid>2f3c6934-75b1-442b-9405-233b443024f5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -88,7 +88,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Previous'])[1]/following::div[3]</value>
-      <webElementGuid>d3df1825-6be2-499e-91a3-a6480490bb1c</webElementGuid>
+      <webElementGuid>2fc56104-3369-45ee-9d3a-57f53d9e3d08</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,7 +96,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Samsung galaxy s6'])[1]/preceding::div[2]</value>
-      <webElementGuid>ba296d9a-1071-4c38-ae66-08c528591fd7</webElementGuid>
+      <webElementGuid>53f9b3fb-0caa-408b-99e5-a9e6a35d4a20</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -104,7 +104,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div/div</value>
-      <webElementGuid>7b93c239-8833-4a31-9349-13782383edcd</webElementGuid>
+      <webElementGuid>9548fc78-a29a-4331-8f21-7c5e6d14ec0a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +126,6 @@
           Monitors
         
       ')]</value>
-      <webElementGuid>e538fa29-22d5-4adf-8cc9-e6d5ced1f482</webElementGuid>
+      <webElementGuid>a4c96caf-48c8-40ba-984c-b3888db4de99</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

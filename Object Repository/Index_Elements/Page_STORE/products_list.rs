@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>elements</name>
+   <name>products_list</name>
    <tag></tag>
    <elementGuidId>6cbd20a5-2b31-4632-be50-2c8ee0a792fe</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#tbodyid</value>
+         <key>XPATH</key>
+         <value>//div[@id='tbodyid']/div/div/div[@class='card-block']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='tbodyid']</value>
+         <key>CSS</key>
+         <value>#tbodyid</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>1993622b-1498-493d-8723-3f3b9f794b2d</webElementGuid>
+      <webElementGuid>d04cd632-1919-4e19-b9e6-d4bdd56447db</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>row</value>
-      <webElementGuid>3d26cd2f-bc1e-4095-8149-d9784dc65914</webElementGuid>
+      <webElementGuid>dfd2deca-18ff-4226-a3a3-b7ba43c81eaa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>id</name>
       <type>Main</type>
       <value>tbodyid</value>
-      <webElementGuid>85678928-91e8-4a1a-a027-4c258388dd31</webElementGuid>
+      <webElementGuid>7c289c78-e8da-4303-bf1d-5788aa681e4d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -75,7 +75,7 @@ ultraportable laptop that the company proudly compares the notebook to
 Apple's 13-inch MacBook Pro. And in a lot of ways this notebook is 
 better, thanks to a lighter weight, higher-resolution display, more 
 storage space, and a Blu-ray drive.   </value>
-      <webElementGuid>a08ef868-c77c-4bff-9de4-17f4ead26269</webElementGuid>
+      <webElementGuid>a0cffd59-69be-4898-b85d-373dc7d1836e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -83,7 +83,7 @@ storage space, and a Blu-ray drive.   </value>
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;tbodyid&quot;)</value>
-      <webElementGuid>fec5b1ea-3231-4cf6-b05e-1c3ba5016328</webElementGuid>
+      <webElementGuid>0fb5a6dc-59f2-484b-ac0a-7151c50c4b83</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -91,7 +91,7 @@ storage space, and a Blu-ray drive.   </value>
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='tbodyid']</value>
-      <webElementGuid>6758a3d6-14df-47e0-ac71-353364fba321</webElementGuid>
+      <webElementGuid>e7cf0e4d-f832-45dc-a558-c5a2c1885ce3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,7 +99,7 @@ storage space, and a Blu-ray drive.   </value>
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='contcont']/div/div[2]/div</value>
-      <webElementGuid>85b3e7e6-fc1e-498a-b16d-0640649bcc0a</webElementGuid>
+      <webElementGuid>a5c2e8d6-6556-4e6d-b4da-244d8ff64cf7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -107,7 +107,7 @@ storage space, and a Blu-ray drive.   </value>
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='CATEGORIES'])[1]/following::div[2]</value>
-      <webElementGuid>c95a5f91-38ce-4520-a5ab-d177150741dd</webElementGuid>
+      <webElementGuid>6d609627-78ab-48c8-b54a-bfcd6b7289eb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -115,7 +115,7 @@ storage space, and a Blu-ray drive.   </value>
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Next'])[1]/following::div[6]</value>
-      <webElementGuid>9a29e654-610c-4e4a-aa9d-5b1e36b20a41</webElementGuid>
+      <webElementGuid>03f7ee65-3ab0-43bf-801c-1617f8ae41e8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -123,7 +123,7 @@ storage space, and a Blu-ray drive.   </value>
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div/div[2]/div</value>
-      <webElementGuid>3ccba7c4-4dea-4b2c-8ec7-0a9f1f95944a</webElementGuid>
+      <webElementGuid>d98658e2-bfc3-4549-8ad4-ac880939463e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -175,6 +175,6 @@ ultraportable laptop that the company proudly compares the notebook to
 Apple&quot; , &quot;'&quot; , &quot;s 13-inch MacBook Pro. And in a lot of ways this notebook is 
 better, thanks to a lighter weight, higher-resolution display, more 
 storage space, and a Blu-ray drive.   &quot;))]</value>
-      <webElementGuid>44b4c3c7-30eb-4c4d-ba38-b0c6dbeccf3f</webElementGuid>
+      <webElementGuid>a9035083-9335-487f-bfd0-2606fc20492d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

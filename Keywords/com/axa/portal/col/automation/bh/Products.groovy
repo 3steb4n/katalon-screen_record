@@ -17,33 +17,20 @@ import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 import internal.GlobalVariable
+
+import org.openqa.selenium.By
 import org.openqa.selenium.WebDriver
 import org.openqa.selenium.WebElement
-import org.openqa.selenium.By
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
-public class Category {
-	private final static WebDriver WEB_DRIVER =  DriverFactory.getWebDriver();
+public class Products {
+	private static final WebDriver WEB_DRIVER = DriverFactory.getWebDriver();
 
 	@Keyword
-	//Validar si la categoria propuesta existe en la lista de categorias
-	public TestObject getCategory(String xpathCategoryContainer, String selectedCategory) {
-		try {
-			WebElement divContainer = WEB_DRIVER.findElement(By.xpath(xpathCategoryContainer));
-			List<WebElement> elements = divContainer.findElements(By.tagName("a"));
-
-			//Recorre los elementos del div en donde estan las categorias disponibles
-			for (int i = 1; i < elements.size(); i++) {
-				if (elements.get(i).getText().toLowerCase().contains(selectedCategory)) {
-					return WebUI.convertWebElementToTestObject(elements.get(i));
-				}
-			}
-		} catch(NoSuchElementException e) {
-			System.out.print("Error to found the category ${selectedCategory}: " + e);
-		}
-
-		return null;
+	public TestObject getProduct(String productsContainerXPath, String selectedProduct) {
+		List<WebElement> webElement = WEB_DRIVER.findElements(By.xpath(productsContainerXPath));
+		println webElement.size()
 	}
 }

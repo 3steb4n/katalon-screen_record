@@ -1,3 +1,24 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Index_Elements/Page_STORE/category",
+      "brokenLocator": "//div[@class\u003d\u0027list-group\u0027]/a[contains(text(), \u0027monitors\u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[@id\u003d\u0027cat\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Index_Elements/Page_STORE/category_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Index_Elements/Page_STORE/button_Next",
+      "brokenLocator": "//button[@id\u003d\u0027next2\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027About Us\u0027])[1]/preceding::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Index_Elements/Page_STORE/button_Next_neighbor.png"
+    }
+  ]
 }

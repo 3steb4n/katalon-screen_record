@@ -9,4 +9,9 @@
       <initValue>'https://www.demoblaze.com/index.html'</initValue>
       <name>url</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Those are used to SigUp and LogIn a random user generated from User KeyWord</description>
+      <initValue>['', '']</initValue>
+      <name>credentialsWebUser</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

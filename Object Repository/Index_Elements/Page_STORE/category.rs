@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_CATEGORIES</name>
+   <name>category</name>
    <tag></tag>
    <elementGuidId>02f825f5-ba87-48d1-b386-d159694fb1e9</elementGuidId>
    <selectorCollection>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='cat']</value>
+         <value>//div[@class='list-group']/a[contains(text(), '${selectedCategory}')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>38fc2c07-3594-4065-9ad7-6423f6836aac</webElementGuid>
+      <webElementGuid>ea4817b0-cd01-437a-8dd0-57a6229782bf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>list-group-item</value>
-      <webElementGuid>6389de77-6ef3-498d-9f08-5f599a4f7add</webElementGuid>
+      <webElementGuid>2fd2758b-7102-410d-be4f-8e76127712c8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>id</name>
       <type>Main</type>
       <value>cat</value>
-      <webElementGuid>6145469b-f4cb-4413-9242-fc0399e41e19</webElementGuid>
+      <webElementGuid>76a93fd8-c657-47f9-9034-14d4e681215d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>CATEGORIES</value>
-      <webElementGuid>0608b925-e641-48eb-8b10-087663dfec5d</webElementGuid>
+      <webElementGuid>7f911c4c-587d-49c5-a793-aa96d4a583e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;cat&quot;)</value>
-      <webElementGuid>f3828736-272e-4db3-b858-e742b4d68400</webElementGuid>
+      <webElementGuid>dc178071-c038-402e-8acf-49d2b9948ca0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='cat']</value>
-      <webElementGuid>daf0e7f6-dc36-4851-b456-fa279ad72c62</webElementGuid>
+      <webElementGuid>0e8b6625-5e73-4128-9196-5fe4062d850e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='contcont']/div/div/div/a</value>
-      <webElementGuid>dec006bc-7099-4da8-845d-2346094ed48b</webElementGuid>
+      <webElementGuid>dd244ce5-700e-45d2-a91d-149fc50d4b05</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'CATEGORIES')]</value>
-      <webElementGuid>fc92f523-4fce-4298-9af2-ee526195c773</webElementGuid>
+      <webElementGuid>36032ab2-133e-4e34-ad0d-77dcf9e41004</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Next'])[1]/following::a[1]</value>
-      <webElementGuid>6f68a82c-3bf2-4eb9-9fc4-ac96242c5180</webElementGuid>
+      <webElementGuid>29d95907-e3c3-49c2-b4a5-d8574ef683eb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Previous'])[1]/following::a[2]</value>
-      <webElementGuid>9794c4db-fa73-4ca2-b5c0-9ae5e1704dbe</webElementGuid>
+      <webElementGuid>6ab6f67b-a2c5-4ba4-8773-ab403220cd1e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Samsung galaxy s6'])[1]/preceding::a[5]</value>
-      <webElementGuid>2c1a3188-9825-4d1d-945b-814b649260ae</webElementGuid>
+      <webElementGuid>9c8efb26-d905-4968-8b0b-e636564b1850</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='$360'])[1]/preceding::a[6]</value>
-      <webElementGuid>9e019614-6794-43db-a6d7-1d6d57d288bb</webElementGuid>
+      <webElementGuid>40f31cf3-6a48-4d67-aa70-49a2ddc63f90</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='CATEGORIES']/parent::*</value>
-      <webElementGuid>dc0db66d-4d3f-41b3-9eb4-626dd1654886</webElementGuid>
+      <webElementGuid>96b4adee-7734-4b74-9291-e16201a64232</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +133,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '')])[12]</value>
-      <webElementGuid>d3da2105-d54a-45f5-ab5c-79ed679918bc</webElementGuid>
+      <webElementGuid>1d44b274-9e97-475d-831a-91de253b152e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +141,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div/a</value>
-      <webElementGuid>34d423a6-16c5-4a23-baaa-feef75388bac</webElementGuid>
+      <webElementGuid>60f11d3c-2510-4eb0-b733-5b147ad26397</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,6 +149,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'cat' and (text() = 'CATEGORIES' or . = 'CATEGORIES')]</value>
-      <webElementGuid>2ee863aa-f129-47cc-9aa6-8d5eedbdb64d</webElementGuid>
+      <webElementGuid>9ab88caa-167b-4ff7-aed8-d2e096948d84</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

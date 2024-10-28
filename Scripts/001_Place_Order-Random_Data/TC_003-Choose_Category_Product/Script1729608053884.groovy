@@ -20,11 +20,34 @@ import org.openqa.selenium.Keys as Keys
 import org.openqa.selenium.WebElement as WebElement
 import org.openqa.selenium.WebDriver as WebDriver
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 //GlobalVariable.category = CustomKeywords.'com.axa.portal.col.automation.bh.Category.getCategoryName'()
-WebUI.waitForElementPresent(findTestObject('Index_Elements/Page_STORE/categories'), 5)
+WebUI.waitForElementVisible(findTestObject('Index_Elements/Page_STORE/categories_list'), 5)
 
-WebUI.verifyEqual(true, CustomKeywords.'com.axa.portal.col.automation.bh.Category.matchedCategory'(findTestObject('Index_Elements/Page_STORE/categories')
-	.findPropertyValue('xpath'), category.toString().toLowerCase()))
+//That is used to click the category based into the TestObject (That's converted from a WebElement)
+//WebUI.click(CustomKeywords.'com.axa.portal.col.automation.bh.Category.getCategory'(findTestObject('Index_Elements/Page_STORE/categories_list').findPropertyValue(
+//'xpath'), category.toString().toLowerCase()))
+WebUI.click(findTestObject('Index_Elements/Page_STORE/category', [('selectedCategory') : category]))
 
-println category
+TestObject productObject = findTestObject('Index_Elements/Page_STORE/product', [('selectedProduct') : product])
+
+while (true) {
+	if (WebUI.waitForElementVisible(productObject, 3)) {
+		WebUI.click(productObject)
+		break
+	} else {
+		if (WebUI.waitForElementVisible(findTestObject('Index_Elements/Page_STORE/button_Next'), 3)) {
+			WebUI.click(findTestObject('Index_Elements/Page_STORE/button_Next'))
+		} else {
+			KeywordUtil.markFailed("Error to found the product $product")
+			break
+		}
+	}
+}
+
+WebUI.waitForElementVisible(findTestObject('product_page/add_cart-button'), 5)
+
+WebUI.click(findTestObject('product_page/add_cart-button'))
+
+WebUI.waitForAlert(5)
